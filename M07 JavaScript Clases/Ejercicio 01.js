@@ -28,7 +28,7 @@ function agregarMetodoPrototype(Usuario) {
    // Tu código:
    Usuario.prototype.saludar = function() {
       return "Hello World!";
-      }   
+      }
 }
 
 function agregarStringInvertida() {
