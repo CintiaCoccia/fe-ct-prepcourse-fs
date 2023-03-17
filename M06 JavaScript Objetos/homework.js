@@ -14,7 +14,6 @@ function crearGato(nombre, edad) {
          return "Meow!";
       }
    }
-
    return gato;
 }
 
