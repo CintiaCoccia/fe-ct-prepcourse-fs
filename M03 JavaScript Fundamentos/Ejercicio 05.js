@@ -11,11 +11,12 @@ function esPositivo(num) {
    if (num > 0) {
    return "Es positivo" ;
    } 
-   else if(num < 0 ) {
+   else if(num < 0) {
    return "Es negativo";
    }
-   else 
+   else {
    return false;
+   }
 }
 
 function agregarSimboloExclamacion(str) {
@@ -43,7 +44,6 @@ function obtenerAreaRectangulo(alto, ancho) {
    // Retornar el área de un rectángulo teniendo su altura y ancho.
    // Tu código:
    return alto * ancho;
-   // let triangleArea = (base, height) => base * height / 2
 }
 
 function retornarPerimetro(lado) {
@@ -75,7 +75,7 @@ function esVocal(letra) {
    // Tu código:
    if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
     return "Es vocal";
-   }else if (letra.length !==1) {
+   } else if (letra.length !==1) {
       return "Dato incorrecto";
    } else {
       return "Dato incorrecto";

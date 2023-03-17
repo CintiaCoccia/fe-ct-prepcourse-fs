@@ -23,8 +23,6 @@ function tienenMismaLongitud(str1, str2) {
       }
    }
 
-
-
 function menosQueNoventa(num) {
    // Retorna true si el argumento "num" es menor que noventa.
    // De lo contrario, retorna false.
@@ -35,7 +33,6 @@ function menosQueNoventa(num) {
          return false;
       }
    }
-
 
 function mayorQueCincuenta(num) {
    // Retorna true si el argumento "num" es mayor que cincuenta.
@@ -57,7 +54,6 @@ function esPar(num) {
    } else
    return false;
    }
-
 
 function esImpar(num) {
    // Retorna true si "num" es impar.
